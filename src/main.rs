@@ -2,7 +2,7 @@ const SECOUNDS_IN_MINUTE: u32 = 60;
 
 fn main() {
     //comentario
-    //cargo run | cargo build | cargo fmt (formatação de texto) | cargo watch -x run
+    //cargo init | cargo run | cargo build | cargo fmt (formatação de texto) | cargo watch -x run
     println!("Ola mundo");
 
     // mut = mutavel

@@ -22,6 +22,17 @@ fn main() {
     
     println!("{:?}", result);
 
+    let z = 10;
+    //let ç = z;
+    let ç = &z; //ponteiro, normalmente ele copia o valor (STACK)
+
+    println!("{}", &ç);
+
+    let z = String::new();
+    let ç = z; // referencia a string é alterada, não copiada (HEAP)
+
+    //println!("{:?}", z); //a variavel z fica invalida
+    println!("{:?}", ç);
 }
 
 fn add_numbers(x: i32, y: i32) -> i32{
